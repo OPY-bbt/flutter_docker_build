@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP 渠道打包</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous"
+    />
+    <style>
+        form {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <h2 class="page-header">APP 渠道打包</h2>
+
+            <div id="list"></div>
+
+            <h2 class="page-footer">
+                <button class="btn btn-default">添加渠道</button>
+                <button class="btn btn-primary" id="build_btn">打包</button>
+            </h2>
+    </div>
+    <script>
+        var channels;
+        fetch('/channel.json').then(function(res) {
+            return res.json();
+        }).then(function(json) {
+            var channelInfoList = json.channelInfoList;
+            channels = channelInfoList;
+            if (channelInfoList.length > 0) {
+                var list = document.body.querySelector('#list');
+                var fragment = document.createDocumentFragment();
+                channelInfoList.forEach(element => {
+                    var div = document.createElement('div');
+                    div.innerHTML = `
+                        <form class="form-inline" id="${element.channel}">
+                            <div class="form-group">
+                                <input class="form-control" value="${element.extraInfo.name}" placeholder="名称">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" value="${element.channel}" placeholder="ID">
+                            </div>
+                            <button class="btn btn-default">下载</button>
+                        </form>
+                    `;
+
+                    fragment.appendChild(div);
+                });
+                list.appendChild(fragment);
+            }
+        });
+
+        var build_btn = document.body.querySelector('#build_btn');
+        build_btn.addEventListener('click', function() {
+            fetch('/build', {
+                method: 'post',
+                body: JSON.stringify({version: '1.5.0', channels }),
+                headers: { 'Content-Type': 'application/json' },
+            }).then(function(res) {
+                return res.json();
+            }).then(function(res) {
+                console.log(res);
+            });
+        });
+    </script>
+</body>
+</html>
