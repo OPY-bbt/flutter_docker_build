@@ -1,0 +1,449 @@
+{
+    "channelInfoList": [
+      {
+        "channel": "",
+        "extraInfo": {
+          "name": "主站"
+        }
+      },
+      {
+        "channel": "r484318",
+        "extraInfo": {
+          "name": "xiaomi"
+        }
+      },
+      {
+        "channel": "r488879",
+        "extraInfo": {
+          "name": "360"
+        }
+      },
+      {
+        "channel": "r493400",
+        "extraInfo": {
+          "name": "yingyongbao"
+        }
+      },
+      {
+        "channel": "r493401",
+        "extraInfo": {
+          "name": "anzhishichang"
+        }
+      },
+      {
+        "channel": "r493402",
+        "extraInfo": {
+          "name": "ali"
+        }
+      },
+      {
+        "channel": "r493404",
+        "extraInfo": {
+          "name": "oppo"
+        }
+      },
+      {
+        "channel": "r493405",
+        "extraInfo": {
+          "name": "vivo"
+        }
+      },
+      {
+        "channel": "r493399",
+        "extraInfo": {
+          "name": "baidu"
+        }
+      },
+      {
+        "channel": "r493406",
+        "extraInfo": {
+          "name": "meizu"
+        }
+      },
+      {
+        "channel": "r493407",
+        "extraInfo": {
+          "name": "lenovo"
+        }
+      },
+      {
+        "channel": "r493409",
+        "extraInfo": {
+          "name": "kuan"
+        }
+      },
+      {
+        "channel": "r493403",
+        "extraInfo": {
+          "name": "huawei"
+        }
+      },
+      {
+        "channel": "r493408",
+        "extraInfo": {
+          "name": "samsung"
+        }
+      },
+      {
+        "channel": "r555404",
+        "extraInfo": {
+          "name": "Mzhanyindao"
+        }
+      },
+      {
+        "channel": "r623114o",
+        "extraInfo": {
+          "name": "toutia"
+        }
+      },
+      {
+        "channel": "r626417",
+        "extraInfo": {
+          "name": "duanxin"
+        }
+      },
+      {
+        "channel": "r644811",
+        "extraInfo": {
+          "name": "baidusem"
+        }
+      },
+      {
+        "channel": "r645137",
+        "extraInfo": {
+          "name": "sem_1"
+        }
+      },
+      {
+        "channel": "r645138",
+        "extraInfo": {
+          "name": "sem_2"
+        }
+      },
+      {
+        "channel": "r645139",
+        "extraInfo": {
+          "name": "sem_3"
+        }
+      },
+      {
+        "channel": "r645134",
+        "extraInfo": {
+          "name": "channel_3"
+        }
+      },
+      {
+        "channel": "r645141",
+        "extraInfo": {
+          "name": "channel_7"
+        }
+      },
+      {
+        "channel": "r645143",
+        "extraInfo": {
+          "name": "channel_9"
+        }
+      },
+      {
+        "channel": "r645144",
+        "extraInfo": {
+          "name": "channel_10"
+        }
+      },
+      {
+        "channel": "r645145",
+        "extraInfo": {
+          "name": "channel_11"
+        }
+      },
+      {
+        "channel": "r645148",
+        "extraInfo": {
+          "name": "channel_14"
+        }
+      },
+      {
+        "channel": "r645149",
+        "extraInfo": {
+          "name": "channel_15"
+        }
+      },
+      {
+        "channel": "r728535",
+        "extraInfo": {
+          "name": "channel_16"
+        }
+      },
+      {
+        "channel": "r728536",
+        "extraInfo": {
+          "name": "channel_17"
+        }
+      },
+      {
+        "channel": "r728537",
+        "extraInfo": {
+          "name": "channel_18"
+        }
+      },
+      {
+        "channel": "r728538",
+        "extraInfo": {
+          "name": "channel_19"
+        }
+      },
+      {
+        "channel": "r728539",
+        "extraInfo": {
+          "name": "channel_20"
+        }
+      },
+      {
+        "channel": "r728540",
+        "extraInfo": {
+          "name": "channel_21"
+        }
+      },
+      {
+        "channel": "r728541",
+        "extraInfo": {
+          "name": "channel_22"
+        }
+      },
+      {
+        "channel": "r728542",
+        "extraInfo": {
+          "name": "channel_23"
+        }
+      },
+      {
+        "channel": "r728543",
+        "extraInfo": {
+          "name": "channel_24"
+        }
+      },
+      {
+        "channel": "r728544",
+        "extraInfo": {
+          "name": "channel_25"
+        }
+      },
+      {
+        "channel": "r728545",
+        "extraInfo": {
+          "name": "channel_26"
+        }
+      },
+      {
+        "channel": "r728546",
+        "extraInfo": {
+          "name": "channel_27"
+        }
+      },
+      {
+        "channel": "r728547",
+        "extraInfo": {
+          "name": "channel_28"
+        }
+      },
+      {
+        "channel": "r728548",
+        "extraInfo": {
+          "name": "channel_29"
+        }
+      },
+      {
+        "channel": "r728549",
+        "extraInfo": {
+          "name": "channel_30"
+        }
+      },
+      {
+        "channel": "r912188",
+        "extraInfo": {
+          "name": "channel_31"
+        }
+      },
+      {
+        "channel": "r912192",
+        "extraInfo": {
+          "name": "channel_32"
+        }
+      },
+      {
+        "channel": "r912194",
+        "extraInfo": {
+          "name": "channel_33"
+        }
+      },
+      {
+        "channel": "r912195",
+        "extraInfo": {
+          "name": "channel_34"
+        }
+      },
+      {
+        "channel": "r912196",
+        "extraInfo": {
+          "name": "channel_35"
+        }
+      },
+      {
+        "channel": "r912197",
+        "extraInfo": {
+          "name": "channel_36"
+        }
+      },
+      {
+        "channel": "r912198",
+        "extraInfo": {
+          "name": "channel_37"
+        }
+      },
+      {
+        "channel": "r912199",
+        "extraInfo": {
+          "name": "channel_38"
+        }
+      },
+      {
+        "channel": "r912200",
+        "extraInfo": {
+          "name": "channel_39"
+        }
+      },
+      {
+        "channel": "r912201",
+        "extraInfo": {
+          "name": "channel_40"
+        }
+      },
+      {
+        "channel": "r912202",
+        "extraInfo": {
+          "name": "channel_41"
+        }
+      },
+      {
+        "channel": "r912203",
+        "extraInfo": {
+          "name": "channel_42"
+        }
+      },
+      {
+        "channel": "r912204",
+        "extraInfo": {
+          "name": "channel_43"
+        }
+      },
+      {
+        "channel": "r912205",
+        "extraInfo": {
+          "name": "channel_44"
+        }
+      },
+      {
+        "channel": "r912206",
+        "extraInfo": {
+          "name": "channel_45"
+        }
+      },
+      {
+        "channel": "r912207",
+        "extraInfo": {
+          "name": "channel_46"
+        }
+      },
+      {
+        "channel": "r912208",
+        "extraInfo": {
+          "name": "channel_47"
+        }
+      },
+      {
+        "channel": "r912209",
+        "extraInfo": {
+          "name": "channel_48"
+        }
+      },
+      {
+        "channel": "r645147",
+        "extraInfo": {
+          "name": "mobaishikong"
+        }
+      },
+      {
+        "channel": "r985797",
+        "extraInfo": {
+          "name": "xinxiliuaiqiyi"
+        }
+      },
+      {
+        "channel": "r990445",
+        "extraInfo": {
+          "name": "channel_49"
+        }
+      },
+      {
+        "channel": "r990446",
+        "extraInfo": {
+          "name": "channel_50"
+        }
+      },
+      {
+        "channel": "r990447",
+        "extraInfo": {
+          "name": "channel_51"
+        }
+      },
+      {
+        "channel": "r990448",
+        "extraInfo": {
+          "name": "channel_52"
+        }
+      },
+      {
+        "channel": "r990449",
+        "extraInfo": {
+          "name": "channel_53"
+        }
+      },
+      {
+        "channel": "r990450",
+        "extraInfo": {
+          "name": "channel_54"
+        }
+      },
+      {
+        "channel": "r990451",
+        "extraInfo": {
+          "name": "channel_55"
+        }
+      },
+      {
+        "channel": "r990452",
+        "extraInfo": {
+          "name": "channel_56"
+        }
+      },
+      {
+        "channel": "r990453",
+        "extraInfo": {
+          "name": "channel_57"
+        }
+      },
+      {
+        "channel": "r990454",
+        "extraInfo": {
+          "name": "channel_58"
+        }
+      },
+      {
+        "channel": "r986143",
+        "extraInfo": {
+          "name": "腾讯新闻横版三小图"
+        }
+      }
+    ]
+  }
+  
